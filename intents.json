@@ -1,0 +1,51 @@
+{"intents": [
+    {"tag": "Chatbot",
+     "patterns": ["Comment tu t’appelle?", "nom", "Dis-moi comment tu t'appelles ?", "Dites-moi comment vous vous appelez ?", "votre nom, s'il vous plaît ?","Quel est votre nom ?","Bonjour"],
+     "responses": [" Bonjour ,Je m’appelle Algorithme Chatbot "]
+    },
+    {"tag": "algorithme",
+     "patterns": ["Algorithme", "C'est quoi un algorithme", "algorithmique","ce quel algorithme ?","Qu'est-ce qu'un algorithme ?","définition d'algorithme"],
+     "responses": ["Un algorithme est une suite d’actions ou d’instructions qui doivent être exécutées dans un ordre bien déterminé pour résoudre un problème (ou réaliser un travail).", "Un algorithme est une suite finie et non ambiguë d’opérations ou d'instructions permettant de résoudre une classe de problèmes.","Un algorithme est une méthode générale pour résoudre un type de problèmes. Il est dit correct lorsque, pour chaque instance du problème,il se termine en produisant la bonne sortie, c'est-à-dire qu'il résout le problème posé"]
+    },
+    {"tag": "Donnée",
+     "patterns": ["Notion de donnée ", "ce quoi une Notion de donnée ?", "Les données d'un Algorithmes ?", "les données"],
+     "responses": ["Les données sont des informations nécessaires au déroulement d’un algorithme.", "Les données sont des informations nécessaires au déroulement d’un algorithme. On distingue deux catégories : les constantes et les variables."]
+    },
+    {"tag": "Constante",
+     "patterns": ["constante", "ce quoi une constant","Constante ?","Les constantes "],
+     "responses": ["Une constante est une donnée fixe qui ne varie pas durant l’exécution d’un algorithme. Une constante est caractérisée par son nom et sa valeur (fixe)Donnée qui conserve toujours la même valeur ","Une constante est un objet dont l'état reste inchangé durant toute l'exécution d'un programme. On ne peut jamais modifier sa valeur et celle-ci doit donc être précisée lors de la définition de l'objet Syntaxe d'un Constante : Constante Nom _Constante = valeur ; Exemple : Constante Pi =3,14 ; Constante B = 6 ; Constante Mois ='Mars."]
+    },
+    {"tag": "variable",
+    "patterns": ["ce quoi une variable ?", "Variable", "définition d’une variable"],
+    "responses": ["Une variable est un objet dont le contenu peut être modifié par une action", "Une variable est un objet dont le contenu peut être modifié par une action durant l’exécution d’un algorithme."]
+    },
+    {"tag": "representation",
+    "patterns": ["représenter un algorithme", "Comment représenter un algorithme ?","la structure d'un algorithme","structure"],
+    "responses": ["On peut représenter un algorithme à l’aide d’un pseudo-code ou d’un organigramme. Un algorithme écrit en pseudo-code est composé de trois partiessuivantes : L’en-tête, la partie déclarative et le corps."]
+    },
+    {"tag": "affectation",
+    "patterns": ["affectation", "affectation"],
+    "responses": ["L’affectation est une opération qui consiste à attribuer une valeur à une variable. Elle est représentée par une flèche orientée à gauche --> "]
+    },
+    {"tag": "Programme",
+    "patterns": ["Programme", "C’est quoi un programme informatique ?", "Un programme informatique"],
+    "responses": ["Un programme informatique est un ensemble d'instructions écrites en langage de programmation destinées à être exécutées par un ordinateur."]
+    },
+	{"tag": "type",
+    "patterns": ["type de variable", "types", "Les types"],
+    "responses": ["Les types de variables sont : Entier, Réel, Booléen, Caractère, Chaîne de caractères", "Les variables se caracterisent essentiellement par leurs types que pouvent être :Entier, Réel, Booléen, Caractère, Chaîne de caractères"]
+    },
+	{"tag": "création d’algorithme",
+    "patterns": ["Comment créer un algorithme?", "création d’algorithme", "je veux creation un algorithme"],
+    "responses": ["Pour créer un algorithme, il faut respecter la syntaxe suivante :-Définir le nom de l'algorithme -Déclarer les variables -Déclarer le début de l'algorithme-Ecrire les instructions -Déclarer la fin de l'algorithme"]
+    },
+	{"tag": "instructions",
+    "patterns": ["instructions de base", "base instructions", "instruction de sorite","instruction de sortie"],
+    "responses": ["La lecture , L’écriture , L’affectation"]
+    },
+	{"tag" : "",
+	"patterns":["jjsdjksddjk"],
+	"responses":["Je comprends pas"]
+}
+]
+}
